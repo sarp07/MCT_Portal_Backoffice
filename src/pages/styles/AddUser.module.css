@@ -1,0 +1,36 @@
+.addUserContainer {
+    position: relative;
+    width: 800px;
+    bottom: 120px;
+    left: 180px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 5px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    margin-right: 250px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.xs {
+    max-width: 600px;
+    height: auto;
+}
+
+.sm {
+    max-width: 900px;
+    height: auto;
+}
+
+.md {
+    max-width: 1200px;
+    height: auto;
+}
+
+.lg {
+    max-width: 1200px;
+    height: auto;
+}
+
+.xl {
+    max-width: 1536px;
+    height: auto;
+}

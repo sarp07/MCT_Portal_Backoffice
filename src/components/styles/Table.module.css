@@ -1,0 +1,65 @@
+.userListTable {
+    width: 100%;
+    padding: 0 6px;
+    height: auto;
+    color: white;
+    padding-top: 8px;
+}
+
+.userListTable table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.userListTable thead {
+    display: flex;
+    width: 100%;
+}
+
+.userListTable tr {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.userListTable th,
+.userListTable td {
+    display: flex;
+    border-right: 1px solid black;
+    padding: 4px 2px;
+}
+
+.userListTable th {
+    flex: 1;
+    text-align: left;
+}
+
+.userListTable .flex-[1] {
+    flex: 1;
+}
+
+.userListTable .flex-[4] {
+    flex: 4;
+}
+
+.userListTable .flex-[5] {
+    flex: 5;
+}
+
+.userListTable .flex-[6] {
+    flex: 6;
+}
+
+.userListTable tbody {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.userListTable button {
+    padding: 8px 16px;
+    background-color: #e53e3e;
+    border-radius: 8px;
+    color: white;
+}
